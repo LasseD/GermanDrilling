@@ -18,7 +18,9 @@ function save_options() {
 function restore_options() {
   chrome.storage.sync.get({
       rules: "der die das des den dem\n" +
-          "ein eine eines einer einen einem\n"
+          "ein eine eines einer einen einem\n" +
+          "sein seine seines seiner seinem seinen\n" +
+          "ihr ihre ihres ihrer ihrem ihren\n"
   }, function(items) {
       document.getElementById('grammarRules').value = items.rules;
   });
