@@ -1,0 +1,18 @@
+.germanDrillOption {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.germanDrillBox {
+    font-weight: bold;
+}
+
+.germanDrillCorrect {
+    font-weight: bold;
+    color: #339933;
+}
+
+.germanDrillWrong {
+    font-weight: bold;
+    color: #993333;
+}
