@@ -9,8 +9,7 @@
     "author": "Lasse Deleuran",
 
     "background": {
-        //"scripts": ["jquery.min.js", "background.js"]
-    //    "service_worker": "background.js"
+        "service_worker": "background.js"
     },
     "permissions": [
         "storage",
